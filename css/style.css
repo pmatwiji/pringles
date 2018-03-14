@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald:500');
+
+@font-face{
+  font-family: 'coolvetica';
+  src: url(../fonts/coolvetica.ttf)
+}
+
+
+.div-menu{
+  background: rgb(182, 14, 14);
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+
+#logo {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
+
+ul{
+  list-style: none;
+  float: right;
+  margin: auto;
+  padding: 25px
+}
+
+li {
+  display: inline-block;
+  margin-right: 1em;
+  padding: 10px;
+  font-size: 30px
+  
+
+}
+
+.fa-facebook{
+  font-size: 30px;
+}
+
+.fa-twitter-square{
+  font-size: 30px;
+}
+
+.div-menu a, .tubos a{
+  text-decoration: solid;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.div-menu a:hover{
+  color: white;
+}
+
+.slide{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  margin-top: 1px;
+  float: left;
+}
+
+#texto-imagen{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 900px;
+  padding: 1px;
+}
+
+#texto-imagen h1{
+  padding: 5em;
+  font-family: 'coolvetica';
+  color: rgb(243, 224, 50);
+  font-size: 76px;
+  text-shadow: 0 3px 5px #000;
+}
+
+#productos{
+  width: 50%;
+  height: 450px;
+  background-image: url(../img/productos.jpg);
+  background-size: cover;
+  margin-top: 1px;
+  padding-top: 1px;
+  float: left;
+
+}
+
+#contacto{
+  width: 50%;
+  height: 450px;
+  background-image: url(../img/contacto.jpg);
+  background-size: cover;
+  margin-top: 1px;
+  padding-top: 1px;
+  float: left;
+
+}
+
+.text-box{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 450px;
+  padding: 1px
+  
+  
+}
+.text-box h1{
+  padding: 2em;
+  font-family: 'coolvetica';
+  color: rgb(243, 224, 50);
+  font-size: 76px;
+  text-shadow: 0 3px 5px #000;
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+	background: rgb(182, 14, 14);
+  height: 50px;
+   font-family: 'Oswald', sans-serif;
+   float: left;
+   border-top: 1px solid black;
+     
+}
+
+#footer p {
+  padding-right: 15px;
+  float: right;
+
+}
+
+.text-box a:hover{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+span h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+#contenedor{
+  width: 100%;
+  text-align: center;
+}
+
+#box-tubos{
+  display: inline-block;
+  width: 50%;
+  padding-top: 2em;
+  border-bottom: solid 2px rgb(182, 14, 14);
+}
+
+.tubos{
+  width: 20%;
+  display: inline-block;
+  padding: 0 35px;
+  margin: 15px 0;
+  max-height: 200px;
+
+}
+
+.tubos a{
+  color: rgb(182, 14, 14);
+}
+
+.tubos img{
+  max-height: 150px;
+}
+
+.descripcion{
+  width: 80%;
+  margin-top: 25px;
+  padding-left: 10%;
+  display: inline-block;
+  
+}
+
+.desc-img{
+  width: 15%;
+  float: left;
+}
+.descripcion img{
+  max-height: 300px;
+  text-align: left;
+}
+
+.desc-title{
+  width: 50%;
+  float: left;
+}
+
+.desc-desc
+{
+  width: 50%;
+  float: left;
+}
+
+.descripcion h2{
+  font-family: 'coolvetica', sans-serif;
+  color: #333333;
+  font-size: 30px;
+}
+.descripcion p{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(182, 14, 14);
+  font-size: 16px;
+}
+
+.fa-arrow-up {
+  display: block;
+  font-size: 50px;
+  color: #333333;
+
+}
+
+hr{
+  width: 80%;
+  border-color: rgb(182, 14, 14);
+  margin-top: 25px
+}
+
+.top{
+  float: right;
+}
